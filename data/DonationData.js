@@ -35,9 +35,9 @@ export const donationData=[
         img:"/donation/clothing.png",
         title:"Used Clothing Drive",
         category:"Clothing",
-        bgColor:"bg-lime-100",
-        categoryColor:"bg-lime-200 text-lime-700",
-        titleColor:"text-lime-700",
+        bgColor:"bg-lime-200",
+        categoryColor:"bg-lime-300 text-lime-700",
+        titleColor:"text-lime-700 font-bold",
         btnColor:"bg-lime-700 text-white",
         price:250,
         desc:"Whether you’re moving, reorganizing the house, have kids that grew out of their clothes or you’re just spring cleaning…have you ever considered donating those items to the Purple Heart Foundation? We’ll take them! It’s fast, free, better for the environment, supports veterans and is tax deductible for you! It’s a win-win situation, all the way around! When you donate your new and gently used items to the Purple Heart Foundation, local thrift shops sell them in their stores and donate the revenue back to the Purple Heart Foundation so we may provide valuable services and resources for veterans across the country."
