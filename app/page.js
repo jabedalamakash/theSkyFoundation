@@ -8,7 +8,7 @@ export default function Home() {
       <section className='mb-20'>
       <Hero/>
       </section>
-      <section className='w-full sm:w-[80%] mx-auto px-5 sm:px-0'>
+      <section className='w-full sm:w-[80%] mx-auto px-5 my-32 sm:px-0'>
         <Cards/>
 
       </section>
