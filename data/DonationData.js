@@ -20,7 +20,7 @@ export const donationData=[
         img:"/donation/education.png",
         title:"Good education",
         category:"Eduaction",
-        bgColor:"bg-red-200 ",
+        bgColor:" bg-red-200 ",
         categoryColor:"bg-red-500 text-red-700",
         titleColor:"text-red-700 font-bold",
         btnColor:"bg-red-700 text-white",

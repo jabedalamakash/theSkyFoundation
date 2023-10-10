@@ -20,8 +20,9 @@ console.log(data);
                         
                         
                         />
-                        <div className={`${item.bgColor} p-5 rounded-b-lg`}>
-                        <p className={`${item.categoryColor} px-3 py-2`}>{item.category}</p>
+                        <div className={`${item.bgColor} p-5 rounded-b-lg `}>
+
+                        {/* <button className={`${item.categoryColor} px-3 py-2 mb-2`}>{item.category}</button> */}
                         <h1 className={`${item.titleColor}`}>{item.title}</h1>
 
                         </div>
