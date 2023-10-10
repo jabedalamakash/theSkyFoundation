@@ -2,7 +2,7 @@ export const donationData=[
 
     {
         id:1,
-        img:"",
+        img:"/donation/health.png",
         title:"Clean water for children",
         category:"Health",
         bgColor:"bg-blue-200",
@@ -17,7 +17,7 @@ export const donationData=[
 
     {
         id:2,
-        img:"",
+        img:"/donation/education.png",
         title:"Good education",
         category:"Eduaction",
         bgColor:"bg-red-200 ",
@@ -32,7 +32,7 @@ export const donationData=[
     
     {
         id:3,
-        img:"",
+        img:"/donation/clothing.png",
         title:"Used Clothing Drive",
         category:"Clothing",
         bgColor:"bg-lime-100",
@@ -47,7 +47,7 @@ export const donationData=[
 
     {
         id:4,
-        img:"",
+        img:"/donation/food.png",
         title:"Better Food for Everyone",
         category:"Food",
         bgColor:"bg-orange-200",
