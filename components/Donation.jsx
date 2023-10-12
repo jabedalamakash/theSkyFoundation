@@ -23,7 +23,7 @@ const Donation = ({data}) => {
                         width={200}
                         alt={item.title}
                         priority
-                        className='w-60 h-60 rounded-b-xl'/>
+                        className='w-72 h-72 object-cover object-center rounded-b-xl'/>
 
                         </div>
                         <div className={`${item.bgColor} w-full p-5`}>

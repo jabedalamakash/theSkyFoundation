@@ -10,7 +10,7 @@ const Card = ({data}) => {
             
             {
                 data && data.map((item)=>{
-                    return <main key={item.id} className='w-full sm:w-1/2 border-2 rounded-xl' >
+                    return <main key={item.id} className='w-full border-2 rounded-xl' >
 
                         <div>
                         <Image
@@ -26,7 +26,7 @@ const Card = ({data}) => {
 
                         <div className={`${item.bgColor} p-5  rounded-b-lg`}>
 
-                            <button className={`${item.categoryColor} px-3 py-2 mb-2`}>{item.category}</button>
+                            <button className={`${item.categoryColor}`}>{item.category} </button>
                             <h1 className={`${item.titleColor}`}>{item.title}</h1>
 
                         </div>
