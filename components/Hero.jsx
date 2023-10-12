@@ -11,6 +11,7 @@ const Hero = () => {
                 height={500}
                 width={500}
                 alt="banner image"
+                priority
                 className='w-full h-full object-cover object-center absolute  opacity-25'/>
 
                 <div className='relative py-40 z-10 text-center '>
