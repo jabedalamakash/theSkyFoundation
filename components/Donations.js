@@ -1,6 +1,7 @@
 import React from 'react';
 import fetchData from './ResponseData';
-import Donation from './donation';
+import Donation from '@/components/Donation';
+
 
 const Donations = async() => {
     const result=await fetchData();
@@ -8,6 +9,7 @@ const Donations = async() => {
     return (
         <div>
             <Donation data={data}/>
+           
             
         </div>
     );
