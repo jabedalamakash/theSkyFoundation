@@ -23,7 +23,7 @@ const Donation = ({data}) => {
                         width={200}
                         alt={item.title}
                         priority
-                        className='w-72 h-72 object-cover object-center rounded-b-xl'/>
+                        className='w-[220px] h-[200px] object-cover object-center rounded-b-xl'/>
 
                         </div>
                         <div className={`${item.bgColor} w-full p-5`}>
@@ -31,7 +31,7 @@ const Donation = ({data}) => {
                             <h1 className="font-bold text-2xl">{item.title}</h1>
                             <p className="mb-3">${item.price}</p>
                             <Link href={"/"}>
-                                <button className={`${item.btnColor} text-blue-700 px-5 py-2`}>View Details</button>
+                                <button className={`${item.btnColor} px-4 py-2 rounded-lg`}>View Details</button>
                             </Link>
                         </div>
                     </section>

@@ -4,8 +4,8 @@ import StatisticsData from '@/components/StatisticsData';
 
 const page = () => {
     return (
-        <section className='w-full sm:w-[80%] mx-auto h-screen  px-5 sm:px-0'>
-            <main className='my-20'>
+        <section className='w-full sm:w-[80%] my-32 mx-auto px-5 sm:px-0'>
+            <main className='w-full py-10'>
             <StatisticsData/>
             </main>
         </section>
