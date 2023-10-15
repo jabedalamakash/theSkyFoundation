@@ -26,12 +26,12 @@ const Donation = ({data}) => {
                         className='w-[220px] h-[200px] object-cover object-center rounded-b-xl'/>
 
                         </div>
-                        <div className={`${item.bgColor} w-full p-5`}>
-                            <button className={`${item.categoryColor}`}>{item.category} </button>
-                            <h1 className="font-bold text-2xl">{item.title}</h1>
-                            <p className="mb-3">${item.price}</p>
-                            <Link href={"/"}>
-                                <button className={`${item.btnColor} px-4 py-2 rounded-lg`}>View Details</button>
+                        <div className={`${item.bgColor} w-full p-5 sm:p-10`}>
+                            <button className={`${item.categoryColor} mb-3`}>{item.category} </button>
+                            <h1 className="font-bold text-2xl mb-3">{item.title}</h1>
+                            <p className={`${item.titleColor} mb-3`}>${item.price}</p>
+                            <Link href={`/details/${item.id}`}>
+                                <button className={`${item.btnColor} px-4 py-2 mb-3 rounded-lg`}>View Details</button>
                             </Link>
                         </div>
                     </section>
