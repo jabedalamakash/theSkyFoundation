@@ -18,7 +18,7 @@ export const donationData=[
     {
         id:2,
         img:"/donation/education.png",
-        title:"Good education",
+        title:"Good Education",
         category:"Eduaction",
         bgColor:"bg-[#FFE3E4]",
         categoryColor:"bg-[#FFC3C5] text-[#FF444A]  px-4 py-2 mb-5",
