@@ -6,9 +6,8 @@ import { NextResponse } from "next/server";
 export async function GET(req,res) {
     console.log(res.params.id);
 
-    const data=donationData.filter((donation)=>{
-        return donation.id === req.params.id;
-    })
+    const data=donationData.filter((donation)=> donation.id === req.params.id);
+    
     if(data.length==0){
         return NextResponse.json({messege:"No Data Found"})
     
