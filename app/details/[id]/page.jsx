@@ -20,6 +20,7 @@ const page = async({params}) => {
 
 
         <main>
+            
             <div className=" relative  py-20">
                 <Image
                 src={data[0].img}
