@@ -20,10 +20,10 @@ export const donationData=[
         img:"/donation/education.png",
         title:"Good Education",
         category:"Eduaction",
-        bgColor:"bg-red-100",
-        categoryColor:"bg-red-200 text-red-500 px-4 py-2 mb-5",
-        titleColor:"text-red-500 font-bold",
-        btnColor:"bg-red-500",
+        bgColor:"bg-[#FFE3E4]",
+        categoryColor:"bg-[#FFC3C5] text-[#FF444A] px-4 py-2 mb-5",
+        titleColor:"text-[#FF444A] font-bold",
+        btnColor:"bg-[#FF444A]",
         price:300,
         desc:"Every child deserves the opportunity to learn.The Sky Foundation works around the world to reach those children who are missing out most on learning and education.We help children get ready for kindergarten and learn to read by third grade — a major indicator of future success. We're especially focused on reaching vulnerable children in rural America where early learning resources are scarce. Globally, we ensure that no child's learning stops because they are caught up in crisis. Your donation today supports our work to keep children healthy, educated and safe."
 
