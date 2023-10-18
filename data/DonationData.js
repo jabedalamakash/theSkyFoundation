@@ -36,7 +36,8 @@ export const donationData=[
         title:"Used Clothing Drive",
         category:"Clothing",
         bgColor:"bg-[#EBF6E2]",
-        categoryColor:"bg-[#D4ECC1] text-[#79C23F] px-4 py-2 mb-52",
+        // text-[#79C23F]
+        categoryColor:"bg-[#D4ECC1] text-[#FF444A]  px-4 py-2 mb-52",
         titleColor:"text-[#79C23F] font-bold",
         btnColor:"bg-[#79C23F]",
         price:250,
