@@ -27,7 +27,7 @@ const page = async({params}) => {
                 height={500}
                 alt={data[0].title}
                 priority
-                className=" w-full h-[700px] absolute mb-20"
+                className=" w-full h-[700px] absolute mb-20 "
                 />
 
             <div className="relative bg-black/30 p-5 sm:p-10 bottom-0  left-0  w-full  rounded-b-xl ">

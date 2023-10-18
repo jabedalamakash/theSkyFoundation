@@ -37,7 +37,7 @@ export const donationData=[
         category:"Clothing",
         bgColor:"bg-[#EBF6E2]",
         // text-[#79C23F]
-        categoryColor:"bg-[#D4ECC1] text-[#FF444A]  px-4 py-2 mb-52",
+        categoryColor:"bg-[#D4ECC1] text-lime-500 px-4 py-2 mb-52",
         titleColor:"text-[#79C23F] font-bold",
         btnColor:"bg-[#79C23F]",
         price:250,
