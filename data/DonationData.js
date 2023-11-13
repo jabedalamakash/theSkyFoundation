@@ -51,8 +51,8 @@ export const donationData=[
         title:"Better Food for Everyone",
         category:"Food",
         bgColor:"bg-[#FEEAE3]",
-        categoryColor:"bg-[#FDD2C4] text-[[#F87147]] px-4 py-2 mb-5",
-        titleColor:"text-[[#F87147]]font-bold",
+        categoryColor:"bg-[#FDD2C4] text-[#F87147] px-4 py-2 mb-5",
+        titleColor:"text-[#F87147] font-bold",
         btnColor:"bg-[#F87147]",
         price:350,
         desc:"153 Million Children Around the World Are Facing Food Insecurit. Hunger drains a child's energy, silences their play and turns their dreams to dust. However, hunger is not a lost cause. Globally, the number of people in famine-like conditions has almost halved. Through The Sky Foundation's work, we've supported 35 million children with hunger-related interventions"
