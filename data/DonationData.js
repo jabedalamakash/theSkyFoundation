@@ -2,7 +2,7 @@ export const donationData=[
 
     {
         id:1,
-        img:"/donation/health.png",
+        img:"https://cdn.jsdelivr.net/gh/jabedalamakash/cdn_skyfoundation/health.png",
         title:"Clean water for children",
         category:"Health",
         bgColor:" bg-[#D9E5FF]",
@@ -17,7 +17,7 @@ export const donationData=[
 
     {
         id:2,
-        img:"/donation/education.png",
+        img:"https://cdn.jsdelivr.net/gh/jabedalamakash/cdn_skyfoundation/education.png",
         title:"Good Education",
         category:"Eduaction",
         bgColor:"bg-[#FFE3E4]",
@@ -32,7 +32,7 @@ export const donationData=[
     
     {
         id:3,
-        img:"/donation/clothing.png",
+        img:"https://cdn.jsdelivr.net/gh/jabedalamakash/cdn_skyfoundation/clothing.png",
         title:"Used Clothing Drive",
         category:"Clothing",
         bgColor:"bg-lime-100", 
@@ -47,7 +47,7 @@ export const donationData=[
 
     {
         id:4,
-        img:"/donation/food.png",
+        img:"https://cdn.jsdelivr.net/gh/jabedalamakash/cdn_skyfoundation/food.png",
         title:"Better Food for Everyone",
         category:"Food",
         bgColor:"bg-orange-100",
