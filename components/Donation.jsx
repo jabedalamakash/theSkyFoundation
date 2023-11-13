@@ -27,7 +27,7 @@ const Donation = ({data}) => {
 
                         </div>
                         <div className={`${item.bgColor} w-full p-5 sm:p-10`}>
-                            <button className={`${item.categoryColor} mb-3`}>{item.category} </button>
+                            <button className={`${item.categoryColor} mb-3 `}>{item.category} </button>
                             <h1 className="font-bold text-2xl mb-3">{item.title}</h1>
                             <p className={`${item.titleColor} mb-3`}>${item.price}</p>
          

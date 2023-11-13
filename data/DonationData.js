@@ -5,7 +5,7 @@ export const donationData=[
         img:"/donation/health.png",
         title:"Clean water for children",
         category:"Health",
-        bgColor:" bg-blue-100",
+        bgColor:" bg-[#D9E5FF]",
         categoryColor:" bg-[#AEC8FF] text-blue-600 px-4 py-2 mb-5",
         titleColor:"text-blue-600 font-bold",
         btnColor:"bg-blue-600 ",
