@@ -10,7 +10,7 @@ const Card = ({data}) => {
             
             {
                 data && data.map((item)=>{
-                    return <main key={item.id} className='w-full border-2 rounded-xl' >
+                    return <main key={item.id} className='w-full rounded-xl' >
 
                         <div>
                         <Image

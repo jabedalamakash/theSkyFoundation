@@ -14,7 +14,7 @@ const Donation = ({data}) => {
             {
                 data && data.map((item)=>{
                     return(
-                        <section key={item.id} className=" w-full  flex  border-2 items-center">
+                        <section key={item.id} className=" w-full  flex  items-center">
 
                         <div>
                         <Image
@@ -23,6 +23,7 @@ const Donation = ({data}) => {
                         width={200}
                         alt={item.title}
                         priority
+                        // layout="responsive"
                         className='w-[220px] h-[200px] object-cover object-center rounded-b-xl'/>
 
                         </div>

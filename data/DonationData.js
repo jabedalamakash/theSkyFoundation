@@ -50,7 +50,7 @@ export const donationData=[
         img:"https://cdn.jsdelivr.net/gh/jabedalamakash/cdn_skyfoundation/food.png",
         title:"Better Food for Everyone",
         category:"Food",
-        bgColor:"bg-orange-100",
+        bgColor:"bg-[#FEEAE3]",
         categoryColor:"bg-[#FDD2C4] text-orange-400 px-4 py-2 mb-5",
         titleColor:"text-orange-400 font-bold",
         btnColor:"bg-orange-400",
