@@ -8,21 +8,10 @@ export default function SearchBar() {
     const router=useRouter()
     const [query, setQuery] = useState([]);
 
-    // useEffect(()=>{
-    //     const resFunc= async()=>{
-    //         const req=  await fetch(`https://theskyfoundation.vercel.app/api/search?${query}`)
-    //         const data= req.json()
-    //         // const request= await fetch)
-    //         console.log(data);}
-
-    //     resFunc();
-    // },[query])
-
-
   const handleSubmit=async (e)=>{
     e.preventDefault();
-    const req=  await fetch(`/api/search/${query}`)
-    const data= req.json();
+    // const req=  await fetch(`https://theskyfoundation.vercel.app/api/search/query=${query}`)
+    // const data= req.json();
     router.push(`/search?${query}`)
     // alert(query);
      setQuery(" ");
