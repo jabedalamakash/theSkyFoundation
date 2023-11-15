@@ -4,10 +4,10 @@ const Color = () => {
     return (
       <div>
         <p className="bg-[#D9E5FF] hover:bg-blue-600 text-blue-600">i</p> 
-        <span className='bg-[#AEC8FF]'>he</span>
-        <span className='bg-[#FEEAE3]'>hi</span>
-        <span className='bg-[#FFE3E4]'>ho</span>
-        <span className='bg-lime-100'>hello</span>
+        <h1 className='bg-[#AEC8FF]'>he</h1>
+        <h1 className='bg-[#FEEAE3]'>hi</h1>
+        <h1 className='bg-[#FFE3E4]'>ho</h1>
+        <h1 className='bg-lime-100'>hello</h1>
 
         <p className=" hover:bg-[#FDD2C4] text-[#F87147] bg-[#F87147]  ">am</p>
         <p className=" hover:bg-[#FFC3C5] text-[#FF444A] bg-[#FF444A]">ak</p>

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+import SearchBar from './SearchBar';
 
 const Hero = () => {
     return (
@@ -16,10 +17,8 @@ const Hero = () => {
 
                 <div className='relative py-40 z-10 text-center '>
                     <h1 className=' font-bold tracking-widest  text-3xl sm:text-5xl mb-10'>I Grow By Helping People In Need</h1>
-                    <div className='flex justify-center '>
-                        
-                        <input type="text" className='border w-[70%] rounded-l-md sm:w-[40%] px-5 py-2 border-gray-600 focus:outline-none' />
-                        <button className='bg-[#FF444A] px-6 py-2 rounded-r-md text-center text-white'>Search</button>
+                    <div >
+                        <SearchBar/>
                     </div>
                 </div>
 

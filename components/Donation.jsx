@@ -23,7 +23,8 @@ const Donation = ({data}) => {
                         width={200}
                         alt={item.title}
                         priority
-                        // layout="responsive"
+                        //  layout="responsive"
+                        // h-[200px]
                         className='w-[220px] h-[200px] object-cover object-center rounded-b-xl'/>
 
                         </div>
