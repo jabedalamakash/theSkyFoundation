@@ -11,8 +11,8 @@ import fetchFunc from "./fetch/FetchFunc";
 
 export default function SearchBar() {
     const [query, setQuery] = useState([]);
-    const res=fetchFunc(`/api/search?${query}`)
-    console.log(res);
+    const res=fetchFunc(`https://theskyfoundation.vercel.app/api/search?${query}`)
+    // console.log(res);
 
   const handleSubmit=(e)=>{
     e.preventDefault();
