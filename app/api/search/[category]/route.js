@@ -1,0 +1,19 @@
+
+import { donationData } from "@/data/DonationData";
+import { NextResponse } from "next/server";
+
+
+
+export async function GET(req,res) {
+    
+     console.log(res.params.category);
+
+    const data=donationData.filter((donation)=> donation.category == res.params.category);
+
+    if(data.length==0){
+        return NextResponse.json({messege:"No Data Found"})
+    
+      }
+      return NextResponse.json({data})
+    
+}

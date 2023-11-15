@@ -1,30 +1,36 @@
 "use client"
 
-import { useState } from "react";
-import fetchFunc from "./fetch/FetchFunc";
-
-
-// const fetchFunc=async()=>{
-//     const req= await fetch(`/api/search?${query}`)
-// }
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 
 
 export default function SearchBar() {
+    const router=useRouter()
     const [query, setQuery] = useState([]);
-    const res=fetchFunc(`https://theskyfoundation.vercel.app/api/search?${query}`)
-    // console.log(res);
 
-  const handleSubmit=(e)=>{
+    // useEffect(()=>{
+    //     const resFunc= async()=>{
+    //         const req=  await fetch(`https://theskyfoundation.vercel.app/api/search?${query}`)
+    //         const data= req.json()
+    //         // const request= await fetch)
+    //         console.log(data);}
+
+    //     resFunc();
+    // },[query])
+
+
+  const handleSubmit=async (e)=>{
     e.preventDefault();
-    alert(query);
+    const req=  await fetch(`/api/search/${query}`)
+    const data= req.json();
+    router.push(`/search?${query}`)
+    // alert(query);
      setQuery(" ");
   }
   const handleChange=(e)=>{
      setQuery(e.target.value);
-    //  console.log(query);
-
-
   }
+
   return (
     <div className="flex justify-center">
       <input

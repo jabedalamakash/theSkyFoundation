@@ -14,7 +14,7 @@ const Donation = ({data}) => {
             {
                 data && data.map((item)=>{
                     return(
-                        <section key={item.id} className=" w-full  flex  items-center">
+                        <section key={item.id} className=" w-full  flex items-center">
 
                         <div>
                         <Image
@@ -25,11 +25,11 @@ const Donation = ({data}) => {
                         priority
                         //  layout="responsive"
                         // h-[200px]
-                        className='w-[220px] h-[200px] object-cover object-center rounded-b-xl'/>
+                        className='w-[220px] h-[200px] object-cover object-center'/>
 
                         </div>
-                        <div className={`${item.bgColor} w-full p-5 sm:p-10`}>
-                            <button className={`${item.categoryColor} mb-3 `}>{item.category} </button>
+                        <div className={`${item.bgColor} w-full h-[200px] p-5 sm:p-10`}>
+                            <button className={`${item.categoryColor} mb-3 rounded `}>{item.category} </button>
                             <h1 className="font-bold text-2xl mb-3">{item.title}</h1>
                             <p className={`${item.titleColor} mb-3`}>${item.price}</p>
          

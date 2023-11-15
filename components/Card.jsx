@@ -26,7 +26,7 @@ const Card = ({data}) => {
 
                         <div className={`${item.bgColor} p-5  rounded-b-lg`}>
 
-                            <button className={`${item.categoryColor}`}>{item.category} </button>
+                            <button className={`${item.categoryColor} rounded`}>{item.category} </button>
                             <h1 className={`${item.titleColor}`}>{item.title}</h1>
 
                         </div>
